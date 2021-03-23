@@ -45,7 +45,7 @@
 					<header class="major">
 						<h2>I Create</h2>
 					</header>
-					<p>Business cards, company websites, social media graphics, custom PowerPoint templates, hobby sites, and anything in between.</p>
+					<p>Business cards, company websites, social media graphics, PowerPoint templates, hobby sites, and anything in between.</p>
 					<ul class="icons-grid">
 						<li>
 							<span class="icon solid major fa-print"></span>
@@ -155,7 +155,56 @@
 						<header class="major">
 							<h2>Tools in my belt</h2>
 						</header>
-						<h3>HTML5, CSS3 , SASS , Bootstrap , JavaScript , Chrome Dev Tools , React , Wordpress , Terminal , Node.js , Express , MongoDB , SQL , Axios , Wordpress , Adobe Creative Suite</h3>
+						<div class="tools">
+							<!-- <ul class="icons-grid"> -->
+						<ul class="listItems">
+							<span class="fab fa-html5 fa-5x"></span>
+							<h6>HTML5</h6>
+						</ul>
+						<ul>
+							<span class="fab fa-css3 fa-5x"></span>
+							<h6>CSS3</h6>
+						</ul>
+						<ul>
+							<span class="fab fa-sass fa-5x"></span>
+							<h6>SASS</h6>
+						</ul>
+						<ul>
+							<span class="fab fa-bootstrap fa-5x"></span>
+							<h6>bootstrap</h6>
+						</ul>
+						<ul>
+							<span class="fab fa-java fa-5x"></span>
+							<h6>JavaScript</h6>
+						</ul>
+					</ul>
+						</div>
+						<div class="tools">
+							<!-- <ul class="icons-grid"> -->
+						<ul class="listItems">
+							<span class="fab fa-chrome fa-5x"></span>
+							<h6>Chrome Dev Tools</h6>
+						</ul>
+						<ul>
+							<span class="fab fa-react fa-5x"></span>
+							<h6>React</h6>
+						</ul>
+						<ul>
+							<span class="fab fa-wordpress fa-5x"></span>
+							<h6>Wordpress</h6>
+						</ul>
+						<ul>
+							<span class="fas fa-terminal fa-5x"></span>
+							<h6>Terminal</h6>
+						</ul>
+						<ul>
+							<span class="fab fa-node fa-5x"></span>
+							<h6>Node.js</h6>
+						</ul>
+					</ul>
+						</div>
+
+						<h3>Also skilled in Adobe Creative Suite, PowerPoint, InDesign, and PhotoShop.</h3>
 					</div>
 					<a href="#five" class="goto-next scrolly">Next</a>
 				</div>
@@ -393,7 +442,130 @@
 					<header class="major">
 						<h2>Get in touch</h2>
 					</header>
-					<form  action="mailto:stephcaldwell97@gmail.com" method="post" enctype="text/plain">
+					<form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/xayawjwn" method="post">
+  <fieldset id="fs-frm-inputs">
+    <label for="full-name"> Full Name</label>
+    <input type="text" name="name" id="full-name" placeholder="First and Last" required="">
+    <label for="email-address">Email Address</label>
+    <input type="email" name="_replyto" id="email-address" placeholder="email@domain.com" required="">
+    <label for="message">Message</label>
+    <textarea rows="5" name="message" id="message" placeholder="Tell me why we would make an amazing team!" required=""></textarea>
+    <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+  </fieldset>
+  <input type="submit" value="Submit">
+</form><style>/* reset */
+#fs-frm input,
+#fs-frm select,
+#fs-frm textarea,
+#fs-frm fieldset,
+#fs-frm optgroup,
+#fs-frm label,
+#fs-frm #card-element:disabled {
+  font-family: inherit;
+  font-size: 100%;
+  color: rgb(83,54,53);
+  border: none;
+  border-radius: 0;
+  display: block;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+#fs-frm label,
+#fs-frm legend,
+#fs-frm ::placeholder {
+  font-size: auto;
+  color:rgba(83,54,53,1)
+  margin-bottom: .5rem;
+  padding-top: .2rem;
+  display: flex;
+  align-items: baseline;
+}
+
+/* border, padding, margin, width */
+#fs-frm input,
+#fs-frm select,
+#fs-frm textarea,
+#fs-frm #card-element {
+  border: 0px solid rgba(83,54,53,.2);
+  background-color: rgba(158,209,175,0.9);
+  padding: .75em 1rem;
+  margin-bottom: 1.5rem;
+}
+#fs-frm input:focus,
+#fs-frm select:focus,
+#fs-frm textarea:focus {
+  background-color: white;
+  outline-style: solid;
+  outline-width: thin;
+  outline-color: rgb(255, 255, 255);
+  outline-offset: -1px;
+}
+#fs-frm [type="text"],
+#fs-frm [type="email"] {
+  width: 100%;
+}
+#fs-frm [type="button"],
+#fs-frm [type="submit"],
+#fs-frm [type="reset"] {
+  width: 100;
+  cursor: pointer;
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+  background-color: rgb(83,54,53);
+  text-align: center;
+  }
+#fs-frm [type="button"]:focus,
+#fs-frm [type="submit"]:focus,
+#fs-frm [type="reset"]:focus {
+  outline: none;
+}
+#fs-frm [type="submit"],
+#fs-frm [type="reset"] {
+  margin-bottom: 0;
+  padding-bottom: 65px;
+}
+#fs-frm select {
+  text-transform: none;
+}
+
+#fs-frm [type="checkbox"] {
+  -webkit-appearance: checkbox;
+  -moz-appearance: checkbox;
+  appearance: checkbox;
+  display: inline-block;
+  width: auto;
+  margin: 0 .5em 0 0 !important;
+}
+
+#fs-frm [type="radio"] {
+  -webkit-appearance: radio;
+  -moz-appearance: radio;
+  appearance: radio;
+}
+
+/* address, locale */
+#fs-frm fieldset.locale input[name="city"],
+#fs-frm fieldset.locale select[name="state"],
+#fs-frm fieldset.locale input[name="postal-code"] {
+  display: inline;
+}
+#fs-frm fieldset.locale input[name="city"] {
+  width: 52%;
+}
+#fs-frm fieldset.locale select[name="state"],
+#fs-frm fieldset.locale input[name="postal-code"] {
+  width: 20%;
+}
+#fs-frm fieldset.locale input[name="city"],
+#fs-frm fieldset.locale select[name="state"] {
+  margin-right: 3%;
+}
+</style>
+					<!-- <form  action="mailto:stephcaldwell97@gmail.com" method="post" enctype="text/plain">
 						<div class="row gtr-uniform">
 							<div class="col-6 col-12-xsmall"><input type="text" name="name" id="name" placeholder="Name" /></div>
 							<div class="col-6 col-12-xsmall"><input type="email" name="email" id="email" placeholder="Email" /></div>
@@ -404,7 +576,7 @@
 								</ul>
 							</div>
 						</div>
-					</form>
+					</form> -->
 				</div>
 				<footer>
 					<ul class="icons">

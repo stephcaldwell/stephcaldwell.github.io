@@ -3187,3 +3187,13 @@ input, select, textarea {
 		margin-right: auto;
 		width: 50%;
 	  }
+
+	  .tools {
+		  display: flex;
+		  justify-content: center;
+		  align-items: center;
+	  }
+
+	  .class {
+		display: block;
+	}
