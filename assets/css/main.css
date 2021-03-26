@@ -3141,7 +3141,7 @@ input, select, textarea {
 			input[type="button"],
 			button,
 			.button {
-				padding: 0;
+				padding: 1;
 			}
 
 				input[type="submit"].icon,
@@ -3190,10 +3190,19 @@ input, select, textarea {
 
 	  .tools {
 		  display: flex;
+		  flex-wrap: wrap;
 		  justify-content: center;
 		  align-items: center;
+		  align-content: center;
 	  }
 
 	  .class {
 		display: block;
+	}
+
+	@media(max-width:675px) {
+		#photo{
+			height: 10rem;
+			width: 15rem;
+		}
 	}
